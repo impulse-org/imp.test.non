@@ -2,10 +2,10 @@
 -- The Non Keyword Lexer
 --
 %options package=org.eclipse.imp.test.non.parser
-%options template=KeywordTemplate.gi
+%options template=KeywordTemplateF.gi
 
 %Include
-    KWLexerLowerCaseMap.gi
+    KWLexerLowerCaseMapF.gi
 %End
 
 %Export
