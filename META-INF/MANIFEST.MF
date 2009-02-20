@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Non-instantiatable language IDE
+Bundle-SymbolicName: org.eclipse.imp.test.non;singleton:=true
+Bundle-Version: 0.1.0
+Bundle-Activator: org.eclipse.imp.test.non.Activator
+Bundle-Vendor: rfuhrer@watson.ibm.com
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources,
+ org.eclipse.imp.runtime,
+ lpg.runtime,
+ org.eclipse.jface.text
+Eclipse-LazyStart: true
